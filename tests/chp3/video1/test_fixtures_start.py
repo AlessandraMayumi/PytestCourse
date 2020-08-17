@@ -3,8 +3,8 @@ from scripts import data_processor, map_population_update
 
 
 @pytest.fixture(scope='session')
-    def map_data_location():
-        yield = 'tests/resources/cities/clean_map.csv'
+def map_data_location():
+    yield 'tests/resources/cities/clean_map.csv'
 
 
 @pytest.fixture(scope='session')
